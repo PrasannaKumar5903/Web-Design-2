@@ -1,0 +1,273 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+}
+
+@font-face {
+  font-family: roboto-light;
+  src: url("../fonts/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: robot-medium;
+  src: url("../fonts/Roboto-Medium.ttf");
+}
+@font-face {
+  font-family: roboto-regular;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+.TCmaincontainer {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 30px;
+  margin-bottom: 100px;
+  h1 {
+    font-family: roboto-light;
+    text-align: center;
+    font-weight: 300;
+    margin: 25px 0;
+    margin-bottom: 45px;
+    font-size: 52px;
+  }
+}
+.subcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.box {
+  border: 0.2px solid lightgray;
+  flex-basis: 30%;
+  justify-content: space-between;
+
+  img {
+    width: 100%;
+  }
+  h3 {
+    margin: 25px 0;
+    padding: 0 15px;
+    font-family: robot-medium;
+    font-weight: 500;
+  }
+  p {
+    padding: 0 15px;
+    margin: 25px 0;
+    font-family: roboto-regular;
+    font-weight: 400;
+  }
+  a {
+    padding: 0 15px;
+    text-decoration: none;
+    color: red;
+    font-family: roboto-regular;
+    font-weight: 400;
+    
+  }
+}
+.Viewbutton {
+  text-align: center;
+  a {
+    text-decoration: none;
+    font-family: roboto-regular;
+    font-weight: 400;
+    color: white;
+  }
+
+  button {
+    margin-top: 75px;
+    text-align: center;
+    text-decoration: none;
+    font-family: roboto-regular;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    background-color: red;
+    margin-bottom: 75px;
+  }
+}
+.hcwhcontainer {
+  h2 {
+    font-family: roboto-light;
+    text-align: center;
+    font-weight: 300;
+    margin: 25px 0;
+    margin-bottom: 75px;
+    font-size: 52px;
+  }
+}
+
+.hcwhsubcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+.tables {
+  border: 0.2px solid lightgray;
+  flex-basis: 45%;
+  padding: 50px 0;
+  img {
+    width: 75px;
+  }
+  h3 {
+    margin: 25px 0;
+    padding: 0 15px;
+    font-family: robot-medium;
+    font-weight: 500;
+    font-size: 32px;
+  }
+  p {
+    padding: 0 15px;
+    margin: 25px 0;
+    font-family: roboto-regular;
+    font-weight: 400;
+    font-size: 22px;
+  }
+  a {
+    text-decoration: none;
+    padding: 15px 20px;
+    button {
+      text-align: center;
+      border: none;
+      text-decoration: none;
+      font-family: roboto-regular;
+      font-weight: 400;
+      font-size: 14px;
+      color: white;
+      padding: 15px 25px;
+      background-color: red;
+      margin-bottom: 20px;
+    }
+  }
+}
+.tables1 {
+  border: 0.2px solid lightgray;
+  flex-basis: 45%;
+  padding: 50px 0;
+  img {
+    width: 75px;
+    color: rgb(23, 153, 196);
+  }
+  h3 {
+    margin: 25px 0;
+    padding: 0 15px;
+    font-family: robot-medium;
+    font-weight: 500;
+    font-size: 32px;
+  }
+  p {
+    padding: 0 15px;
+    margin: 25px 0;
+    font-family: roboto-regular;
+    font-weight: 400;
+    font-size: 22px;
+  }
+  a {
+    text-decoration: none;
+    padding: 15px 20px;
+    button {
+      text-align: center;
+      text-decoration: none;
+      font-family: roboto-regular;
+      font-weight: 400;
+      font-size: 14px;
+      border: none;
+      color: white;
+      padding: 15px 25px;
+      background-color: rgb(23, 153, 196);
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.footerParent {
+  margin: 150px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footerChild {
+  flex-basis: 20%;
+  h3 {
+    font-family: robot-medium;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(29, 127, 166);
+    margin-bottom: 20px;
+  }
+  h4 {
+    font-family: robot-medium;
+    font-weight: 500;
+    font-size: 16px;
+    
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    
+  }
+  h5{
+    margin: 15px 0;
+    font-family: robot-medium;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  i{
+    margin-top: 15px;
+    margin-right: 15px;
+    color: red;
+  }
+}
+
+
+.form-box button{
+  color: #fff;
+  font-size: 12px;
+  border: none;
+  padding: 5px 5px;
+  background-color: red;
+  cursor: pointer;
+  transition: .3s;
+}
+.form-box input{
+  font-size: 12px;
+  color: black;
+  padding: 5px 5px;
+  border: none;
+  outline: none;
+  background: #ececee;
+}
+
+.footerbottom{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  h4{
+    font-family: robot-medium;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  h5{
+    font-family: roboto-regular;
+    font-weight: 400;
+    font-size: 12px;
+  }
+}
+.btm{
+  position: relative;
+  flex-basis: 99%;
+  text-align: center;
+  i{
+    position: absolute;
+    margin-left: -110px;
+  }
+}
+
